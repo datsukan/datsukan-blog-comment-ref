@@ -32,9 +32,9 @@ func Ref(r events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error
 			CreatedAt: c.CreatedAt,
 		}
 		if len(c.ReplyComments) > 0 {
-			var rcs []response.ResponseItem
+			var rcs []response.ReplyComment
 			for _, brc := range c.ReplyComments {
-				rc := response.ResponseItem{
+				rc := response.ReplyComment{
 					ID:        brc.ID,
 					ArticleID: brc.ArticleID,
 					ParentID:  brc.ParentID,
