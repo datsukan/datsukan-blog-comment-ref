@@ -21,7 +21,7 @@ func Ref(r events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error
 		return coreResponse.ResponseInternalServerError(err)
 	}
 
-	var res response.Response
+	res := []response.ResponseItem{}
 	for _, c := range cs {
 		ri := response.ResponseItem{
 			ID:        c.ID,
@@ -46,7 +46,7 @@ func Ref(r events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error
 			}
 			ri.ReplyComments = rcs
 		}
-		res.Comments = append(res.Comments, ri)
+		res = append(res, ri)
 	}
 
 	j, err := json.Marshal(res)

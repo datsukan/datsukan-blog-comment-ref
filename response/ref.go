@@ -10,8 +10,3 @@ type ResponseItem struct {
 	CreatedAt     string         `json:"created_at"`
 	ReplyComments []ResponseItem `json:"reply_comments"`
 }
-
-// Response は、コメント取得のレスポンスの構造体。
-type Response struct {
-	Comments []ResponseItem `json:"comments"`
-}
