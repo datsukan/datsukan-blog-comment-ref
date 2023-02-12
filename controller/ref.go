@@ -23,13 +23,15 @@ func Ref(r events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error
 
 	res := []response.ResponseItem{}
 	for _, c := range cs {
+		reply := []response.ReplyComment{}
 		ri := response.ResponseItem{
-			ID:        c.ID,
-			ArticleID: c.ArticleID,
-			ParentID:  c.ParentID,
-			UserName:  c.UserName,
-			Content:   c.Content,
-			CreatedAt: c.CreatedAt,
+			ID:            c.ID,
+			ArticleID:     c.ArticleID,
+			ParentID:      c.ParentID,
+			UserName:      c.UserName,
+			Content:       c.Content,
+			CreatedAt:     c.CreatedAt,
+			ReplyComments: reply,
 		}
 		if len(c.ReplyComments) > 0 {
 			var rcs []response.ReplyComment
