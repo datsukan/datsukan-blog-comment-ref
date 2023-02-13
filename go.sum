@@ -49,6 +49,8 @@ github.com/datsukan/datsukan-blog-comment-core v0.0.0-20230213034754-8f8511420d1
 github.com/datsukan/datsukan-blog-comment-core v0.0.0-20230213034754-8f8511420d1f/go.mod h1:Qcb4HxMI1bB9rxolj7JtkQJNCtkKxIqzbW2IeVvoJMU=
 github.com/datsukan/datsukan-blog-comment-core v0.0.0-20230213040831-5d267d186cd6 h1:jP5egyjzqonRKs7U1Lt+M6WXUli+nNw4Lic2/SzbYeo=
 github.com/datsukan/datsukan-blog-comment-core v0.0.0-20230213040831-5d267d186cd6/go.mod h1:Qcb4HxMI1bB9rxolj7JtkQJNCtkKxIqzbW2IeVvoJMU=
+github.com/datsukan/datsukan-blog-comment-core v0.0.0-20230213041033-faed1eba7c88 h1:akUL2xcAfmv/UQndPkqEfSaVuqSw04g52yQfEkC8lF0=
+github.com/datsukan/datsukan-blog-comment-core v0.0.0-20230213041033-faed1eba7c88/go.mod h1:Qcb4HxMI1bB9rxolj7JtkQJNCtkKxIqzbW2IeVvoJMU=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/google/uuid v1.3.0 h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=
