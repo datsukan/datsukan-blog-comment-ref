@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/aws/aws-lambda-go v1.37.0
-	github.com/datsukan/datsukan-blog-comment-core v0.0.0-20230213034754-8f8511420d1f
+	github.com/datsukan/datsukan-blog-comment-core v0.0.0-20230213040831-5d267d186cd6
 	github.com/joho/godotenv v1.5.1
 )
 
